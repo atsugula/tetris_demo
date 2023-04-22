@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1682051915 source:c:\users\jorge\documents\proyetsc++\tetris\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1682050347 c:\users\jorge\documents\proyetsc++\tetris\miniwin.h
+	<iostream>
+
+1682118772 source:c:\users\jorge\documents\proyetsc++\tetris\main.cpp
+	"miniwin.h"
+	<cstdlib>
+	<sstream>
+	<string>
+	<ctime>
+
