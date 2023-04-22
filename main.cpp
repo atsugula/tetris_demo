@@ -198,6 +198,7 @@ void repinta(Tablero& T, const Pieza& P, const Pieza& Sigue, int puntos, int niv
     texto(40 + ancho, MARGEN, "Siguiente Pieza");
     texto(40 + ancho, MARGEN + 150, "Nivel");
     texto(40 + ancho, MARGEN + 250, "Puntos");
+    texto(ancho - 100, MARGEN + 530, "ATSU 2022 © All Right Reserved.");
     // Parametros para el menu
     color(BLANCO);
     texto(40 + ancho, 300, a_string(puntos));
@@ -218,7 +219,7 @@ void game_over() {
 }
 
 int main() {
-    vredimensiona(TAM * COLUMNAS + 220, TAM * FILAS + 150); // Tamaño de la GUI
+    vredimensiona(TAM * COLUMNAS + 220, TAM * FILAS + 100); // Tamaño de la GUI
     srand(time(0)); // Poner semilla para los numeros al azar
 
     int tic = 0, puntos = 0, nivel = 0;
